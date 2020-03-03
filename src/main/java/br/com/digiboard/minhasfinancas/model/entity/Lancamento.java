@@ -41,10 +41,10 @@ public class Lancamento extends AbstractEntityId {
     private String descricao;
     
     @Column(name = "mes")
-    private int mes;
+    private Integer mes;
     
     @Column(name = "ano")
-    private int ano;
+    private Integer ano;
     
     @Column(name = "valor")
     private BigDecimal valor;
